@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="showInput">Show input</button>
+    <div class="wrapper"></div>
+    <div class="formWrapper hidden">
+      <form id="form">
+        <label>
+          Bo'yini kiriting:⬇️
+          <input id="height" type="text" placeholder="height" required />
+        </label>
+        <label>
+          Enini kiriting:⬇️
+          <input id="width" type="text" placeholder="width" required />
+        </label>
+        <label>
+          Border rangini kiriting:⬇️
+          <input
+            id="borderColor"
+            type="text"
+            placeholder="borderColor"
+            required
+          />
+        </label>
+        <label>
+          background rangini kiriting:⬇️
+          <input
+            id="background"
+            type="text"
+            placeholder="background"
+            required
+          />
+        </label>
+        <label>
+          borderRadius kiriting:⬇️
+          <input
+            id="borderRadius"
+            type="text"
+            placeholder="borderRadius"
+            required
+          />
+        </label>
+        <button class="button">create</button>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
